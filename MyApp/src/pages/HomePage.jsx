@@ -9,7 +9,7 @@ export function HomePage() {
         <h1>Welcome to My App</h1>
       </div>
       <div className="bottom-section">
-        <Button name="Click Me" />
+        <Button name="Click Me" link="/career-library"/>
       </div>
     </div>
     </>
