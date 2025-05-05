@@ -11,6 +11,7 @@ body{
   min-height:100vh;
   flex-direction: column;
   gap:50px;
+  background-color: black;
 }
 a{
   position:relative;
@@ -25,10 +26,10 @@ a{
   transition:0.5s;
 }
 a:hover{
-  background:blue;
-  color:blue;
+  background:linear-gradient(45deg,rgb(207, 58, 244),rgb(239, 79, 197));
+  color:rgb(207, 58, 244);
   letter-spacing:0.25em;
-  box-shadow: 0 0 35px blue;
+  box-shadow: 0 0 35px rgb(207, 58, 244);
 }
 a:before{
   content:'';
@@ -70,7 +71,7 @@ a i::after{
   left :20%;
   width:10px;
   height:4px;
-  background:black;
+  background:rgb(0, 0, 0);
   transform : translateX(-50%) skewX(325deg);
   transition:0.5s;
 }
