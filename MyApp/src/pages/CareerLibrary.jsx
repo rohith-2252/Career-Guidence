@@ -1,6 +1,6 @@
 import React from 'react';
 import {LibraryCard} from '../components/LibraryCard';
-import './CareerLibrary.css';
+import './style/CareerLibrary.css';
 
 export const CareerLibrary = () => {
     return (

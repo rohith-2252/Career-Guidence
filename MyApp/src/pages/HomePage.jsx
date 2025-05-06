@@ -1,5 +1,5 @@
 import {Button} from '../components/Button';
-import './HomePage.css';
+import './style/HomePage.css';
 export function HomePage() {
   return (
     <>
