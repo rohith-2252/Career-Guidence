@@ -1,20 +1,13 @@
 .body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
-    gap: 50px;
+    background-color: blue;
 }
 .top-section{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
 }
 .bottom-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
 }

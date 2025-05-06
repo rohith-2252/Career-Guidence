@@ -1,12 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-}
 
 .career-container {
     display:flexbox;
-    margin: 0 auto;
+    background-color: blue;
     padding: 20px;
 }
 
