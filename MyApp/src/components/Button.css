@@ -1,5 +1,7 @@
-
-a{
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button-1{
   position:relative;
   background:white;
   color:white;
@@ -11,13 +13,13 @@ a{
   padding:10px 2px;
   transition:0.5s;
 }
-a:hover{
+.button-1:hover{
   background:linear-gradient(45deg,rgb(207, 58, 244),rgb(239, 79, 197));
   color:rgb(207, 58, 244);
   letter-spacing:0.25em;
   box-shadow: 0 0 35px rgb(207, 58, 244);
 }
-a:before{
+/* a:before{
   content:'';
   position:absolute;
   inset:2px;
@@ -64,4 +66,20 @@ a i::after{
 a:hover i::after{
   width:20px;
   left:80%;
+} */
+
+.header-navigator{
+  padding: 5px 10px;
+  display:inline;
+  transition:0.5s;
+  background-color: rgb(234, 232, 231);
+  margin-left: 20px;
+}
+.header-navigator:hover{
+  background-color: aqua;
+  letter-spacing: .25em;
+
+}
+a{
+  text-decoration: none;
 }

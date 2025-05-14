@@ -1,13 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
 .body{
-    background-color: blue;
+    background-color: #8080801c;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 .top-section{
     display:flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
+.top-section-left{
+    flex:1;
+}
+.logo-image{
+    margin-left: 20px;
+}
+.top-section-right{
+    flex
+}
 .bottom-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
