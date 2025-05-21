@@ -5,3 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()]
 })
+<system.webServer>
+   <staticContent>
+      <remove fileExtension=".mjs" /> 
+      <mimeMap fileExtension=".mjs" mimeType="text/javascript" />
+   </staticContent>
+</system.webServer>
